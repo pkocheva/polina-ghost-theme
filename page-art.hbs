@@ -1,0 +1,68 @@
+{{!< default}}
+{{!-- The tag above means: insert everything in this file
+into the {body} of the default.hbs template --}}
+
+<header class="site-header outer">
+    <div class="inner">
+        {{> "site-nav"}}
+    </div>
+</header>
+
+<main id="site-main" class="site-main outer">
+  <div class="inner">
+    <h1>Paintings & Drawings</h1>
+    <div id="gallery" style="display:none;">
+      <img alt="Image 1 Title"
+        data-description="Image 1 Description"
+        data-image="/assets/img/brs.jpg"
+        src="/assets/img/brs.jpg"> 
+      <img alt="Image 1 Title"
+        data-description="Image 1 Description"
+        data-image="/assets/img/cats.jpg"
+        src="/assets/img/cats.jpg"> 
+      <img alt="Image 1 Title"
+        data-description="Image 1 Description"
+        data-image="/assets/img/hdn.jpg"
+        src="/assets/img/hdn.jpg"> 
+      <img alt="Image 1 Title"
+        data-description="Image 1 Description"
+        data-image="/assets/img/mshr.jpg"
+        src="/assets/img/mshr.jpg"> 
+      <img alt="Image 1 Title"
+        data-description="Image 1 Description"
+        data-image="/assets/img/skt1.jpg"
+        src="/assets/img/skt1.jpg"> 
+      <img alt="Image 1 Title"
+        data-description="Image 1 Description"
+        data-image="/assets/img/skt2.jpg"
+        src="/assets/img/skt2.jpg"> 
+      <img alt="Image 1 Title"
+        data-description="Image 1 Description"
+        data-image="/assets/img/trpcl.jpg"
+        src="/assets/img/trpcl.jpg"> 
+      <img alt="Image 1 Title"
+        data-description="Image 1 Description"
+        data-image="/assets/img/snl.jpg"
+        src="/assets/img/snl.jpg"> 
+      <img alt="Image 1 Title"
+        data-description="Image 1 Description"
+        data-image="/assets/img/skt3.jpg"
+        src="/assets/img/skt3.jpg"> 
+      <img alt="Image 1 Title"
+        data-description="Image 1 Description"
+        data-image="/assets/img/skt4.jpg"
+        src="/assets/img/skt4.jpg"> 
+    </div>
+  </div>
+</main>
+  <script type="text/javascript">
+
+                        
+        jQuery(document).ready(function(){ 
+          jQuery("#gallery").unitegallery({
+            tiles_space_between_cols: 12,			//space between images
+          }); 
+        }); 
+      
+  </script>
+
