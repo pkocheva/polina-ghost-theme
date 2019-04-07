@@ -35,9 +35,12 @@ $.getJSON("https://spreadsheets.google.com/feeds/list/1-eierzHfP9pVOdppzcaR7BBsK
   if(currentCity) {
       $('#current-city').html(currentCity); 
   }
+
   if(nextCity) {
       $('#next-city').html(nextCity);
       $('#next-city-time').html(dateDiff);
+  } else {
+      $('#leaving-for').html('');
   }
   
 });
